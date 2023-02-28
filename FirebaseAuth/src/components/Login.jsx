@@ -97,28 +97,28 @@ const Login = () => {
             </div>
 
             {/* forgot password */}
-            <div class="flex items-center justify-between">
-              <div class="flex items-start">
-                <div class="flex items-center h-5">
+            <div className="flex items-center justify-between">
+              <div className="flex items-start">
+                <div className="flex items-center h-5">
                   <input
                     id="remember"
                     aria-describedby="remember"
                     type="checkbox"
-                    class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
+                    className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
                   />
                 </div>
-                <div class="ml-3 text-sm">
+                <div className="ml-3 text-sm">
                   <label
-                    for="remember"
-                    class="text-gray-500 dark:text-gray-300"
+                    htmlFor="remember"
+                    className="text-gray-500 dark:text-gray-300"
                   >
                     Remember me
                   </label>
                 </div>
               </div>
               <Link
-                to="/forgotpassword"
-                class="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500"
+                to="/resetpassword"
+                className="text-sm font-medium text-primary-600 hover:underline dark:text-primary-500"
               >
                 Forgot password?
               </Link>
@@ -126,10 +126,10 @@ const Login = () => {
           </form>
 
           {/* divider */}
-          <div class="relative flex pb-2 pt-5 items-center">
-            <div class="flex-grow border-t border-gray-400"></div>
-            <span class="flex-shrink mx-4 text-gray-400">or</span>
-            <div class="flex-grow border-t border-gray-400"></div>
+          <div className="relative flex pb-2 pt-5 items-center">
+            <div className="flex-grow border-t border-gray-400"></div>
+            <span className="flex-shrink mx-4 text-gray-400">or</span>
+            <div className="flex-grow border-t border-gray-400"></div>
           </div>
           {/* divider end */}
           {/* googlt btn */}

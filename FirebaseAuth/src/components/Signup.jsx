@@ -125,10 +125,10 @@ const Signup = () => {
             </div>
           </form>
           {/* divider */}
-          <div class="relative flex py-2 items-center">
-            <div class="flex-grow border-t border-gray-400"></div>
-            <span class="flex-shrink mx-4 text-gray-400">or</span>
-            <div class="flex-grow border-t border-gray-400"></div>
+          <div className="relative flex py-2 items-center">
+            <div className="flex-grow border-t border-gray-400"></div>
+            <span className="flex-shrink mx-4 text-gray-400">or</span>
+            <div className="flex-grow border-t border-gray-400"></div>
           </div>
           {/* divider end */}
           {/* googlt btn */}
